@@ -14,11 +14,12 @@
 
 2. **Tab Configuration**:
 
-   1. Go to the upper tab click `+`, search and add `MedxPlanner` tab to your team.
-   2. Create a bucket, if already created then skip.
-   3. In the form shown, go to **Dropdown of an existing plan or new plan** and select **New Plan**.
-   4. Enable shift, if you use Microsoft Shifts.
-   5. **Important:** Click button before saving.
+   1. Use MS Teams browser version to run the application.
+   2. Go to the upper tab click `+`, search and add `MedxPlanner` tab to your team.
+   3. Create a bucket, if already created then skip.
+   4. In the form shown, go to **Dropdown of an existing plan or new plan** and select **New Plan**.
+   5. Enable shift, if you use Microsoft Shifts.
+   6. **Important:** Click button before saving.
 
 ######  Bravo!! tab configuration completed. Get ready to add tasks.
 
