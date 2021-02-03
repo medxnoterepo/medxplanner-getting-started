@@ -10,13 +10,13 @@
 
    1. Create a user called: [medxplanner1@_____.com](mailto:medxplanner1@_____.com) and make sure `medxplanner1` is all small.
    2. Now hit this end point [https://medxprod-api-consent-service.medx.im](https://medxprod-api-consent-service.medx.im) and sign-in with above credentials.
-   2. For admin approval click `Have an admin account? Sign in with that account`.
-   3. Sign in with your Admin credentials and accept all the permission.
-   4. Sign in again using your medxplanner1 email created earlier.
+   3. For admin approval click `Have an admin account? Sign in with that account`.
+   4. Sign in with your Admin credentials and accept all the permission.
+   5. Sign in again using your medxplanner1 email created earlier.
    
 2. **Tab Configuration**:
 
-   1. Use MS Teams browser version to run the application.
+   1. Open Microsoft Teams.
    2. Go to the upper tab click `+`, search and add `MedxPlanner` tab to your team.
    3. Please, follow the instructions and `Authenticate`
    4. Create a bucket, if already created then skip.
