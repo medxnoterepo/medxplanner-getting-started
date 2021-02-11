@@ -26,79 +26,8 @@
 
 ######  Bravo!! tab configuration completed. Get ready to add tasks.
 
-## Add Task using either of the options
+## Add Task using Message Extension
 
-**Option 1:** **Postman Overview**
-
-   API Endpoint: [https://medxprod-api-task-service.medx.im/medxtask](https://medxprod-api-task-service.medx.im/medxtask)
-
-   ```
-   $ Authorization : Get this from MedxPlanner tab as "API Key",  Example: a55c65d0-d466-480d-9ea9-72b621e0a307
-   $ userId: Get this from MedxPlanner tab as "User ID", Example: b8c43f7a-7bc3-4e6f-978b-050e7448a522
-   $ routeId: Get this from the MedxPlanner tab as "ID" under route list, for the route which you want to send the task too, Example: 2ebd0508-ef81-4d5f-9f32-07d11a31ee20
-   $ tenantId: Click on the ellipsis on the right of Team and click on "Get a link to team", Just Copy your "tenantId". Example: tenantId=5df91xxx-xxxx-xxxx-xxxx-bdc0cba3xxxx
-   $ startDateTimestamp example: 2021-01-04 15:12:12Z
-   $ hospitalReference: medxtask_a06a7b53-e384-4433-b274-2e4b2712b726
-   ```
-### Sample Template
-
-   1. Select the request as `POST` and paste the above endpoint.
-   2. Under Authorization, select type as `Bearer Token` and paste the above Authorization (`API Key`).
-   3. Go to `Body` and select `raw` with text as `JSON`.
-   4. Update the content of the below sample bodies with `routeId`, `userId`, `tenantId`.
-
-**Minimal Body content**
-
-```
-{
-  "routeId": "7fcxxxxx-xxxx-xxxx-xxxx-5d35838xxxxx",
-  "userId": "77cxxxxx-xxxx-xxxx-xxxx-5f09858xxxxx",
-  "tenantId": "dcdxxxxx-xxxx-xxxx-xxxx-31002a1xxxxx",
-  "title": "Task: Add you task title",
-  "percentComplete": 0,
-  "createdTimestamp": "2021-01-29T21:51:49Z",
-  "startDateTimestamp": "2021-01-29T15:10:15Z",
-  "dueDate": "2021-11-20T11:47:33.000Z",
-  "Notes": "Add some useful notes here"
-}
-
-```
-
-**Full Body content**
-
-```
-{
-  "routeId": "7fcxxxxx-xxxx-xxxx-xxxx-5d35838xxxxx",
-  "userId": "77cxxxxx-xxxx-xxxx-xxxx-5f09858xxxxx",
-  "tenantId": "dcdxxxxx-xxxx-xxxx-xxxx-31002a1xxxxx",
-  "title": "Task: Add you task title",
-  "hospitalAssignment": null,
-  "percentComplete": 0,
-  "createdTimestamp": "2021-01-29T21:51:49Z",
-  "startDateTimestamp": "2021-01-29T15:10:15Z",
-  "dueDate": "2021-11-20T11:47:33.000Z",
-  "Notes": "Add some useful notes here",
-  "checklistItems": [
-    {
-      "title": "itema"
-    },
-    {
-      "title": "itemb"
-    }
-  ],
-  "attachments": [
-    {
-      "url": "https://www.google.co.in",
-      "alias": "name of the file"
-    }
-  ],
-  "comments": "null,",
-  "priority": null
-}
-
-```
-
-**Option 2:** **Message Extension**
    1. Go to, ellipsis on message conversation, and search for **MedxTasks**.
    2. Add the extension by signing in using the above credentials you created.
    3. You will see 'We didn't find any matches for you' as there is no task added by you yet.
