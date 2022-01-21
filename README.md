@@ -19,7 +19,7 @@
    2. Go to the upper tab click `+`, search and add the `Tasks by Planner and To Do` tab to your team.
    3. Select `Create a new plan` and add it as a new tab 
 
-3. **Configuration MedxPlanner tab**:
+3. **Configuring MedxPlanner tab**:
 
    1. Go to the upper tab click `+`, search and add `MedxPlanner` tab to your Team.
    2. Please, follow the instructions on the tab to Authenticate and to save the changes.
